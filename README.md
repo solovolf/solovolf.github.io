@@ -6,15 +6,15 @@
 有三种方法实现
 ######1.将实例放入构造函数的静态属性中
 ```javascript
-function Fun(){
+ function Fun(){
     if(typeof Fun.instance ==='object'){
       return Fun.instance;
     }
     Fun.instance=this;
-}
-var f1=new Fun();
-var f2=new Fun();
-console.log(f1===f2);//true
+ }
+ var f1=new Fun();
+ var f2=new Fun();
+ console.log(f1===f2);//true
 ```
 这种方法的缺点是instance属性是公开的。其他代码有可能会影响到实例的属性。
 
