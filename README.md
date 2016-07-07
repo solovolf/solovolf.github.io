@@ -25,7 +25,6 @@ function Fun(){
     }
     Fun.prototype=this;
     instance=new Fun();
-    
     instance.constructor=Fun;
     return instance;
   }
