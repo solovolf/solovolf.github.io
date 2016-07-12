@@ -111,3 +111,41 @@ console.log(f1===f2);//true
 - 通过for of  Symbol.iterator 实现 （详情请自行查询api）
 
 此种方法的迭代器对象主要提供next方法，next方法中返回value／done两个属性，done表示迭代是否完成，value表示本次迭代中返回的值。
+
+
+
+装饰
+在装饰者模式中，可以在运行时动态添加附加功能到对象中。由于js对象是可变的，因此，添加功能到对象的过程变得很简单。
+装饰者比较方便的特征在于其预期行为的可定制性与可配置性。可以从仅具有一些功能的普通对象开始，然后从可用的装饰资源池中选择需要用于增强普通对象的那些功能，并且按照顺序进行装饰，尤其当装饰顺序很重要的时候。
+```javascript
+  function Sale(price){
+    this.price=price||100;
+    this.decorateList=[];
+  }
+  Sale.decorators={};
+  Sale.decorators.fedtax={
+    getPrice:function(price){
+      return price+price*5/100;
+    }
+  }
+  Sale.decorators.quebec={
+    getPrice:function(price){
+      return price+price*7.5/100;
+    }
+  }
+  Sale.prototype.decorate=function(decorator){
+    this.decorateList.push(decorator);
+  }
+  Sale.prototype.getPrice=function(){
+    var price=this.price,name,max=this.decorateList.length;
+    for(var i=0;i<max;i++){
+      name=this.decorateList[i];
+      price=Sale.decorators[name].getPrice(price);
+    }
+    return price;
+  }
+  var sale=new Sale(100);
+  sale.decorate('fedtax');//105
+  sale.decorate('quebec');//107.5  112.875
+  console.log(sale.getPrice());
+  ```
