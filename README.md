@@ -116,7 +116,8 @@ console.log(f1===f2);//true
 
 ###装饰
 在装饰者模式中，可以在运行时动态添加附加功能到对象中。由于js对象是可变的，因此，添加功能到对象的过程变得很简单。
-装饰者比较方便的特征在于其预期行为的可定制性与可配置性。可以从仅具有一些功能的普通对象开始，然后从可用的装饰资源池中选择需要用于增强普通对象的那些功能，并且按照顺序进行装饰，尤其当装饰顺序很重要的时候。
+装饰者比较方便的特征在于其预期行为的可定制性与可配置性。可以从仅具有一些功能的普通对象开始，然后从可用的装饰资源池中选择需要用于增强普通对象的那些功能，并且按照顺序进行装饰，尤其当装饰顺序很重要的时候。<br>
+以下是买东西时考虑到在不同州的税费不同而最终价格不同的解决办法，典型的装饰模式。
 ```javascript
   function Sale(price){
     this.price=price||100;
@@ -149,3 +150,82 @@ console.log(f1===f2);//true
   sale.decorate('quebec');//107.5  112.875
   console.log(sale.getPrice());
   ```
+  
+###策略
+策略模式支持在运行时选择算法。代码使用同一个接口来工作，但是它却根据客户正在试图执行任务的上下文，从多个算法中选择用于处理特定任务的算法。<br>
+使用策略的一个经典场景是解决表单验证问题。可以创建一个具有validate()方法的验证器(validator)对象。无论表单的具体类型是什么，该方法都将会被调用，并总是返回一个包含未经验证的数据列表以及任意的错误消息的对象。<br>
+但是根据具体的表单形式以及待验证的数据，验证器的内部将选择不同类型的检查方法。验证器将选择最佳的策略（strategy）以处理任务，并且将具体的数据验证委托给适当的算法。
+```javascript
+var validator={
+    types:{},
+    messages:[],
+    validate:function(data){
+      var i,msg,type,checker,result_ok;
+      this.messages=[];
+      for(i in data){
+        if(data.hasOwnProperty(i)){
+          type = this.config[i];
+          checker=this.types[type];
+        }
+        if(!type){
+          continue;
+        }
+        if(!checker){
+          throw {
+            name:'ValidationError',
+            message:'No handler to validate type:'+type
+          }
+        }
+        result_ok=checker.validate(data[i]);
+        if(!result_ok){
+          msg = "Invalid value for *"+i+"*,"+checker.instructions;
+          this.messages.push(msg);
+        }
+      }
+      return this.hasErrors();
+    },
+    hasErrors:function(){
+      return this.messages.length!==0;
+    }
+  };
+
+  validator.types.isNonEmpty={
+    validate:function(value){
+      return value !=="";
+    },
+    instructions:'传入的值不能为空'
+  };
+  validator.types.isNumber = {
+    validate: function (value) {
+      return !isNaN(value);
+    },
+    instructions: "传入的值只能是合法的数字，例如：1, 3.14 or 2010"
+  };
+  validator.types.isAlphaNum = {
+    validate: function (value) {
+      return !/[^a-z0-9]/i.test(value);
+    },
+    instructions: "传入的值只能保护字母和数字，不能包含特殊字符"
+  };
+  var data = {
+    first_name: "",
+    last_name: "Xu",
+    age: "unknown",
+    username: "TomXu"
+  };
+
+  validator.config = {
+    first_name: 'isNonEmpty',
+    age: 'isNumber',
+    username: 'isAlphaNum'
+  };
+  validator.validate(data);
+
+  if (validator.hasErrors()) {
+    console.log(validator.messages.join("\n"));
+  }
+```
+策略和装饰比较容易混淆，个人理解：<br>
+策略模式是指一个事物有几种解决办法，而通过环境使得这几种解决办法可以通过互换来改变行为。比如一个类有一个排序的方法，而排序可以有很多种，比如：冒泡／快速／插入 等等，可以做一个排序抽象类，具体的排序都集成自这个抽象类，运行时可以动态的选择一种方法。在js中没有抽象类的概念，所以这里的策略模式采用的是普通的对象，通过给对象附加属性方法的形式来实现。<br>
+而装饰模式则有一个很经典的例子，悟空七十二变。每变一种，就有那种动物具有的特性，但本质还是猴子。装饰模式就是在不改变现有接口状态下对功能做补充。<br>
+总结区别就是：装饰模式的重点是对原有方法做补充，而策略模式的重点在于动态对功能的内部实现做选择。一个附加一个选择。
