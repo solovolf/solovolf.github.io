@@ -1,4 +1,6 @@
-[本文引用自教程](https://lzw.me/pages/css3/)
+#css3 flex布局理解
+
+[flex详细api教程](https://lzw.me/pages/css3/)
 
 使用所有flex弹性盒子必须要将父元素 设置成如下  display:flex;
 
