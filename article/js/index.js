@@ -15,6 +15,8 @@
         },
         methods:{
             changeArtList:function(msg,event){
+                document.querySelector('.select').className='';
+                event.currentTarget.className='select';
                 this.artList=articleList[msg];
             },
             openUrl:function(msg,event){

@@ -37,6 +37,7 @@ h1 {
     height: 50px;
     line-height: 50px;
     text-indent: 18px;
+    margin: 0;
 }
 
 #menu-wrapper a {

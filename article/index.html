@@ -11,10 +11,14 @@
 <div class="container">
     <div id="menu-wrapper">
         <h4>文章类别</h4>
-        <a v-for="menuItem in menuList" @click="changeArtList(menuItem.type,$event)" href="javascript:void(null)">{{menuItem.name}}</a>
+        <template v-for="(menuItem,index) in menuList">
+            <a v-if="index==0" class="select" @click="changeArtList(menuItem.type,$event)" href="javascript:void(null)">{{menuItem.name}}</a>
+            <a v-else @click="changeArtList(menuItem.type,$event)" href="javascript:void(null)">{{menuItem.name}}</a>
+        </template>
+
     </div>
     <div id="article-wrapper">
-        <a v-for="articleItem in artList" data-url="{{articleItem.url}}" @click="openUrl(articleItem.url,$event)" href="javascript:void(null)">{{articleItem.name}}</a>
+        <a v-for="articleItem in artList" :data-url="articleItem.url" @click="openUrl(articleItem.url,$event)" href="javascript:void(null)">{{articleItem.name}}</a>
     </div>
 </div>
 <script src="js/data.js"></script>
