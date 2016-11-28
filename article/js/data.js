@@ -4,7 +4,8 @@ var menuList = [
     {name: '协议', type: 'protocol'},
     {name: 'js', type: 'javascript'},
     {name: 'vuejs学习系列', type: 'vuejs'},
-    {name: '工具系列', type: 'tool'}
+    {name: '插件', type: 'plugin'},
+    {name: '工具', type: 'tool'}
 ]
 
 var articleList={
@@ -34,5 +35,14 @@ var articleList={
     browser:[
         {name:'浏览器是怎样工作的',url:'http://ued.ctrip.com/blog/how-browsers-work-rendering-engine-html-parsing-series-ii.html'},
         {name:'浏览器资源加载优化',url:'http://www.infoq.com/cn/articles/browser-resource-loading-optimization'},
+    ],
+    tool:[
+        {name:"puzzler-活动页静态页面生成器",url:"https://github.com/superRaytin/puzzler/releases"},
+    ],
+    plugin:[
+        {name:"chrome插件之-图片对比",url:"https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi"},
+        {name:"chrome插件之-网站分析",url:"https://chrome.google.com/webstore/detail/site-analyzer/ephokeeknlfdjadenpnpgkcndfjmomok"},
+        {name:"chrome插件之-二维码",url:"https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81/moombeodfomdpjnpocobemoiaemednkg"},
+        {name:"ps插件之-cutterman切图神器",url:"http://www.cutterman.cn/zh/cutterman"}
     ]
 }
