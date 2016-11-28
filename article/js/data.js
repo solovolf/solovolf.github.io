@@ -3,8 +3,7 @@ var menuList = [
     {name: '浏览器', type: 'browser'},
     {name: '协议', type: 'protocol'},
     {name: 'js', type: 'javascript'},
-    {name: 'vuejs学习系列', type: 'vuejs'},
-    {name: '工具系列', type: 'tool'}
+    {name: 'vuejs学习系列', type: 'vuejs'}
 ]
 
 var articleList={
