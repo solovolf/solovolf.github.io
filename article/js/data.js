@@ -19,8 +19,6 @@ var articleList={
         {name:'移动端高清、多屏适配方案',url:'http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041'},
         {name:'H5 缓存机制浅析 - 移动端 Web 加载性能优化',url:'https://segmentfault.com/a/1190000004132566'},
         {name:'让IE6/IE7/IE8浏览器支持CSS3属性',url:'http://www.zhangxinxu.com/wordpress/2010/04/%E8%AE%A9ie6ie7ie8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81css3%E5%B1%9E%E6%80%A7/'},
-        {name:"麻省理工学院公开课：计算机科学及编程导论",url:"http://open.163.com/special/opencourse/bianchengdaolun.html"},
-        {name:"AlloyTeam",url:"https://github.com/AlloyTeam/Mars"}
     ],
     javascript:[
         {name:'44个 Javascript 变态题解析 (上)',url:'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/'},
