@@ -7,19 +7,22 @@ div {
 }
 
 h1 {
-    width: 1080px;
+    max-width: 1080px;
+    width: 90%;
+    min-width: 650px;
     margin: 0 auto;
     line-height: 80px;
 }
 
 .container {
-    width: 1080px;
+    max-width: 1080px;
+    width: 90%;
+    min-width: 650px;
     margin: 0 auto 100px auto;
-    display: -webkit-flex;
-    display: flex;
     border: 1px solid #e5e5e5;
     height: 1000px;
     background-color: #ffffff;
+    position: relative;
 }
 
 #menu-wrapper {
@@ -28,6 +31,9 @@ h1 {
     width: 180px;
     height: 100%;
     overflow: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #menu-wrapper h4 {
@@ -66,16 +72,23 @@ h1 {
 #article-wrapper {
     height: 100%;
     overflow: auto;
-    width: 900px;
+    position: absolute;
+    left:180px;
+    right: 0;
+    top: 0;
 }
 
 #article-wrapper a {
     display: block;
     font-size: 14px;
     border-bottom: 1px dashed #e5e5e5;
-    margin:0 20px;
+    margin: 0 20px;
     line-height: 3.2;
     text-decoration: none;
+}
+
+#article-wrapper a:hover {
+    text-decoration: underline;
 }
 
 #article-wrapper a:last-of-type {
