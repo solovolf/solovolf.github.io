@@ -8,6 +8,7 @@ var menuList = [
     {name: '工具', type: 'tool'},
     {name: '汇总', type: 'collect'},
     {name: '架构知识', type: 'framework'},
+    {name: '原创', type: 'original'},
 ]
 
 var articleList={
@@ -62,5 +63,9 @@ var articleList={
     framework:[
         {name:"前端架构",url:"http://saito.im/note/The-Architecture-of-F2E/"},
         {name:"如何成为前端架构师",url:"https://www.zhihu.com/question/24092572"},
+    ]
+    original:[
+        {name:"vue-cli 配置多页面应用",url:"http://blog.csdn.net/solovolf/article/details/53066402"},
+        {name:"css3-flex 布局理解",url:"http://blog.csdn.net/solovolf/article/details/52982338"},
     ]
 }
