@@ -15,7 +15,6 @@
             <a v-if="index==0" class="select" @click="changeArtList(menuItem.type,$event)" href="javascript:void(null)">{{menuItem.name}}</a>
             <a v-else @click="changeArtList(menuItem.type,$event)" href="javascript:void(null)">{{menuItem.name}}</a>
         </template>
-
     </div>
     <div id="article-wrapper">
         <a v-for="articleItem in artList" :data-url="articleItem.url" @click="openUrl(articleItem.url,$event)" href="javascript:void(null)">{{articleItem.name}}</a>
