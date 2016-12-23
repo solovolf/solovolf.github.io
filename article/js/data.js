@@ -14,6 +14,7 @@ var menuList = [
 var articleList = {
     article: [
         { name: 'requestAnimationFrame动画算法', url: 'http://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/' },
+        { name: '移动端适配方案', url: 'http://div.io/topic/1092' },
         { name: '什么是viewport，为啥需要viewport', url: 'http://www.myexception.cn/mobile/428756.html' },
         { name: '使用Flexible实现手淘H5页面的终端适配', url: 'https://github.com/amfe/article/issues/17' },
         { name: 'js中attribute和property的区别', url: 'http://www.jianshu.com/p/rRssiL' },
