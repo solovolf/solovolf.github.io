@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>我的文章列表</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="js/vue.min.js"></script>
 </head>
@@ -17,7 +17,7 @@
         </template>
     </div>
     <div id="article-wrapper">
-        <a v-for="articleItem in artList" :data-url="articleItem.url" @click="openUrl(articleItem.url,$event)" href="javascript:void(null)">{{articleItem.name}}</a>
+        <a target="_blank" v-for="articleItem in artList" :href="articleItem.url">{{articleItem.name}}</a>
     </div>
 </div>
 <script src="js/data.js"></script>
