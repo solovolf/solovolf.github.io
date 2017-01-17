@@ -37,9 +37,9 @@ h1 {
 }
 
 #menu-wrapper h4 {
-    color: #acacac;
+    font-size: 18px;
+    color: #2c3e50;
     border-bottom: 1px solid #e5e5e5;
-    font-size: 16px;
     height: 50px;
     line-height: 50px;
     text-indent: 18px;
@@ -55,6 +55,7 @@ h1 {
     line-height: 48px;
     cursor: pointer;
     text-decoration: none;
+    color: #34495e;
 }
 
 #menu-wrapper a:last-of-type {
@@ -62,11 +63,11 @@ h1 {
 }
 
 #menu-wrapper a.select {
-    color: #f74a4a;
+    color:#42b983;
 }
 
 #menu-wrapper a:hover {
-    color: #f74a4a;
+    color:#42b983;
 }
 
 #article-wrapper {
@@ -80,15 +81,17 @@ h1 {
 
 #article-wrapper a {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     border-bottom: 1px dashed #e5e5e5;
     margin: 0 20px;
     line-height: 3.2;
     text-decoration: none;
+    color: #34495e;
 }
 
 #article-wrapper a:hover {
     text-decoration: underline;
+    color:#42b983;
 }
 
 #article-wrapper a:last-of-type {
