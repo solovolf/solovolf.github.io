@@ -9,6 +9,7 @@ var menuList = [
     { name: '汇总', type: 'collect' },
     { name: '架构知识', type: 'framework' },
     { name: '原创', type: 'original' },
+    { name: '书籍', type: 'book' },
 ]
 
 var articleList = {
@@ -70,5 +71,8 @@ var articleList = {
     original: [
         { name: "vue-cli 配置多页面应用", url: "http://blog.csdn.net/solovolf/article/details/53066402" },
         { name: "css3-flex 布局理解", url: "http://blog.csdn.net/solovolf/article/details/52982338" },
+    ],
+    book:[
+        {name:"CSS秘密花园",url:"http://www.kancloud.cn/digest/css-secrets/68469"}
     ]
 }
