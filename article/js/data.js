@@ -22,7 +22,9 @@ var articleList = {
         { name: '移动端高清、多屏适配方案', url: 'http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041' },
         { name: 'H5 缓存机制浅析 - 移动端 Web 加载性能优化', url: 'https://segmentfault.com/a/1190000004132566' },
         { name: '让IE6/IE7/IE8浏览器支持CSS3属性', url: 'http://www.zhangxinxu.com/wordpress/2010/04/%E8%AE%A9ie6ie7ie8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81css3%E5%B1%9E%E6%80%A7/' },
-        {name:'https 加密方式概念',url:'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/'}
+        {name:'https 加密方式概念',url:'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/'},
+        {name:'细说webpack',url:'http://taobaofed.org/blog/2016/09/09/webpack-flow/'},
+        {name:'12个你未必知道的css小知识',url:'http://www.webhek.com/12-little-known-css-facts'}
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
