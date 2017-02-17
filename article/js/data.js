@@ -10,6 +10,7 @@ var menuList = [
     { name: '架构知识', type: 'framework' },
     { name: '原创', type: 'original' },
     { name: '书籍', type: 'book' },
+    { name: '教程', type: 'course' },
 ]
 
 var articleList = {
@@ -60,6 +61,7 @@ var articleList = {
         { name: "图片加载中图片 收费  不过这个看到现成的效果然后自己写", url: "http://preloaders.net/en/circular" },
         { name: "免费的css loader 效果", url: "https://github.com/ConnorAtherton/loaders.css" },
         { name: "js 代码混淆加密 过程不可逆", url: "http://utf-8.jp/public/jjencode.html" },
+        { name: "cmd markdown 在线编辑markdown", url: "https://www.zybuluo.com/cmd/" },
     ],
     collect: [
         { name: "前端资源教程  很全  前端很多资料可以在这里找", url: "https://cnodejs.org/topic/56ef3edd532839c33a99d00e" },
@@ -76,5 +78,8 @@ var articleList = {
     ],
     book:[
         {name:"CSS秘密花园",url:"http://www.kancloud.cn/digest/css-secrets/68469"}
+    ],
+    course:[
+        {name:"markdown语法说明",url:"http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html"}
     ]
 }
