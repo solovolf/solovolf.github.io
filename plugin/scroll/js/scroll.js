@@ -62,7 +62,7 @@
         //适配部分安卓机型舞法匹配touchend问题
         this.ele.addEventListener('touchcancel',touchendFunc)
         function touchendFunc(eve){
-            alert('done')
+            alert(eve.type)
             eve.stopPropagation()
             if(_this.scrollDisabled)
                 return
