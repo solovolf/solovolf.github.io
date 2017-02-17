@@ -50,13 +50,19 @@
             // _this.scrollDisabled=true
             // var ele=_this.ele
             // _this.yPoint=eve.touches[0].pageY
-            eve.preventDefault();
+            eve.preventDefault()
+            eve.stopPropagation()
+        })
+        this.ele.addEventListener('touchmove',function(eve){
+            eve.preventDefault()
+            eve.stopPropagation()
         })
 
         this.ele.addEventListener('touchend',touchendFunc)
         //适配部分安卓机型舞法匹配touchend问题
         this.ele.addEventListener('touchcancel',touchendFunc)
         function touchendFunc(eve){
+            alert('done')
             eve.stopPropagation()
             if(_this.scrollDisabled)
                 return
