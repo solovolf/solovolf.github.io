@@ -53,10 +53,10 @@
             eve.preventDefault()
             eve.stopPropagation()
         })
-        this.ele.addEventListener('touchmove',function(eve){
-            eve.preventDefault()
-            eve.stopPropagation()
-        })
+        // this.ele.addEventListener('touchmove',function(eve){
+        //     eve.preventDefault()
+        //     eve.stopPropagation()
+        // })
 
         this.ele.addEventListener('touchend',touchendFunc)
         //适配部分安卓机型舞法匹配touchend问题
