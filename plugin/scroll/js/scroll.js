@@ -50,8 +50,8 @@
             // _this.scrollDisabled=true
             // var ele=_this.ele
             // _this.yPoint=eve.touches[0].pageY
-            // eve.preventDefault()
-            // eve.stopPropagation()
+            eve.preventDefault()
+            eve.stopPropagation()
         })
 
         this.ele.addEventListener('touchend',touchendFunc)
