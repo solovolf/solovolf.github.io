@@ -62,6 +62,8 @@ var articleList = {
         { name: "免费的css loader 效果", url: "https://github.com/ConnorAtherton/loaders.css" },
         { name: "js 代码混淆加密 过程不可逆", url: "http://utf-8.jp/public/jjencode.html" },
         { name: "cmd markdown 在线编辑markdown", url: "https://www.zybuluo.com/cmd/" },
+        { name: "图片服务器", url: "http://www.tietuku.com/" },
+        { name: "gif格式转换 配合macqq截屏 简直神器  缺点就是较慢", url: "http://www.alltoall.net/mp4_gif/" },
     ],
     collect: [
         { name: "前端资源教程  很全  前端很多资料可以在这里找", url: "https://cnodejs.org/topic/56ef3edd532839c33a99d00e" },
