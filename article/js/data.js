@@ -27,6 +27,7 @@ var articleList = {
         { name: '让IE6/IE7/IE8浏览器支持CSS3属性', url: 'http://www.zhangxinxu.com/wordpress/2010/04/%E8%AE%A9ie6ie7ie8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81css3%E5%B1%9E%E6%80%A7/' },
         {name:'https 加密方式概念',url:'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/'},
         {name:'细说webpack',url:'http://taobaofed.org/blog/2016/09/09/webpack-flow/'},
+        {name:'passive event',url:'https://www.qcloud.com/community/article/164816001481011865?fromSource=gwzcw.92748.92748.92748'},
         {name:'12个你未必知道的css小知识',url:'http://www.webhek.com/12-little-known-css-facts'}
     ],
     javascript: [
