@@ -28,7 +28,9 @@ var articleList = {
         {name:'https 加密方式概念',url:'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/'},
         {name:'细说webpack',url:'http://taobaofed.org/blog/2016/09/09/webpack-flow/'},
         {name:'passive event',url:'https://www.qcloud.com/community/article/164816001481011865?fromSource=gwzcw.92748.92748.92748'},
-        {name:'12个你未必知道的css小知识',url:'http://www.webhek.com/12-little-known-css-facts'}
+        {name:'12个你未必知道的css小知识',url:'http://www.webhek.com/12-little-known-css-facts'},
+        {name:'node简易服务器',url:'http://coderlt.coding.me/2016/03/16/http-server-nodejs/'},
+        {name:'gulp自定义插件',url:'http://www.alloyteam.com/2016/01/9918/'}
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
