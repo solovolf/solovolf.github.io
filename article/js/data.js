@@ -10,7 +10,7 @@ var menuList = [
     { name: '架构知识', type: 'framework' },
     { name: '原创', type: 'original' },
     { name: '书籍', type: 'book' },
-    { name: '教程', type: 'course' },
+    { name: '教程', type: 'course' }
 ]
 
 var articleList = {
@@ -87,6 +87,7 @@ var articleList = {
         {name:"CSS秘密花园",url:"http://www.kancloud.cn/digest/css-secrets/68469"}
     ],
     course:[
-        {name:"markdown语法说明",url:"http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html"}
+        {name:"markdown语法说明",url:"http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html"},
+        {name:"axios教程",url:"http://coderlt.coding.me/2017/03/21/axios-api-md/"}
     ]
 }
