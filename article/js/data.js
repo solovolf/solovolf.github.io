@@ -10,7 +10,8 @@ var menuList = [
     { name: '架构知识', type: 'framework' },
     { name: '原创', type: 'original' },
     { name: '书籍', type: 'book' },
-    { name: '教程', type: 'course' }
+    { name: '教程', type: 'course' },
+    { name: '深度学习', type: 'deepLearning' }
 ]
 
 var articleList = {
@@ -90,6 +91,12 @@ var articleList = {
     course: [
         { name: "markdown语法说明", url: "http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html" },
         { name: "axios教程", url: "http://coderlt.coding.me/2017/03/21/axios-api-md/" },
-        { name: "react-native navigator", url: "https://reactnavigation.org/docs/navigators/custom" }
+        { name: "react-native navigator", url: "https://reactnavigation.org/docs/navigators/custom" },
+        { name: "xcode 图标设置", url: "http://www.jianshu.com/p/2e6756c4c7be" }
+    ],
+    deepLearning:[
+        {name:"入门1",url:"https://zhuanlan.zhihu.com/p/27172826"},
+        {name:"入门2",url:"https://zhuanlan.zhihu.com/p/27319114"},
+        {name:"游乐园",url:"http://playground.tensorflow.org/"},
     ]
 }
