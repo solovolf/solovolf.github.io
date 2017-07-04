@@ -25,12 +25,12 @@ var articleList = {
         { name: '移动端高清、多屏适配方案', url: 'http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041' },
         { name: 'H5 缓存机制浅析 - 移动端 Web 加载性能优化', url: 'https://segmentfault.com/a/1190000004132566' },
         { name: '让IE6/IE7/IE8浏览器支持CSS3属性', url: 'http://www.zhangxinxu.com/wordpress/2010/04/%E8%AE%A9ie6ie7ie8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81css3%E5%B1%9E%E6%80%A7/' },
-        {name:'https 加密方式概念',url:'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/'},
-        {name:'细说webpack',url:'http://taobaofed.org/blog/2016/09/09/webpack-flow/'},
-        {name:'passive event',url:'https://www.qcloud.com/community/article/164816001481011865?fromSource=gwzcw.92748.92748.92748'},
-        {name:'12个你未必知道的css小知识',url:'http://www.webhek.com/12-little-known-css-facts'},
-        {name:'node简易服务器',url:'http://coderlt.coding.me/2016/03/16/http-server-nodejs/'},
-        {name:'gulp自定义插件',url:'http://www.alloyteam.com/2016/01/9918/'}
+        { name: 'https 加密方式概念', url: 'http://whuhan2013.github.io/blog/2016/08/24/http-ptotecl-learn/' },
+        { name: '细说webpack', url: 'http://taobaofed.org/blog/2016/09/09/webpack-flow/' },
+        { name: 'passive event', url: 'https://www.qcloud.com/community/article/164816001481011865?fromSource=gwzcw.92748.92748.92748' },
+        { name: '12个你未必知道的css小知识', url: 'http://www.webhek.com/12-little-known-css-facts' },
+        { name: 'node简易服务器', url: 'http://coderlt.coding.me/2016/03/16/http-server-nodejs/' },
+        { name: 'gulp自定义插件', url: 'http://www.alloyteam.com/2016/01/9918/' }
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
@@ -69,6 +69,7 @@ var articleList = {
         { name: "cmd markdown 在线编辑markdown", url: "https://www.zybuluo.com/cmd/" },
         { name: "图片服务器", url: "http://www.tietuku.com/" },
         { name: "gif格式转换 配合macqq截屏 简直神器  缺点就是较慢", url: "http://www.alltoall.net/mp4_gif/" },
+        { name: "图标工厂", url: "http://icon.wuruihong.com/" }
     ],
     collect: [
         { name: "前端资源教程  很全  前端很多资料可以在这里找", url: "https://cnodejs.org/topic/56ef3edd532839c33a99d00e" },
@@ -83,11 +84,12 @@ var articleList = {
         { name: "vue-cli 配置多页面应用", url: "http://blog.csdn.net/solovolf/article/details/53066402" },
         { name: "css3-flex 布局理解", url: "http://blog.csdn.net/solovolf/article/details/52982338" },
     ],
-    book:[
-        {name:"CSS秘密花园",url:"http://www.kancloud.cn/digest/css-secrets/68469"}
+    book: [
+        { name: "CSS秘密花园", url: "http://www.kancloud.cn/digest/css-secrets/68469" }
     ],
-    course:[
-        {name:"markdown语法说明",url:"http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html"},
-        {name:"axios教程",url:"http://coderlt.coding.me/2017/03/21/axios-api-md/"}
+    course: [
+        { name: "markdown语法说明", url: "http://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html" },
+        { name: "axios教程", url: "http://coderlt.coding.me/2017/03/21/axios-api-md/" },
+        { name: "react-native navigator", url: "https://reactnavigation.org/docs/navigators/custom" }
     ]
 }
