@@ -32,7 +32,9 @@ var articleList = {
         { name: '12个你未必知道的css小知识', url: 'http://www.webhek.com/12-little-known-css-facts' },
         { name: 'node简易服务器', url: 'http://coderlt.coding.me/2016/03/16/http-server-nodejs/' },
         { name: 'gulp自定义插件', url: 'http://www.alloyteam.com/2016/01/9918/' },
-        { name: '正则不包含匹配', url: 'https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word/24743196#24743196' }
+        { name: '正则不包含匹配', url: 'https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word/24743196#24743196' },
+        { name: '正则表达式学习', url: 'http://www.cnblogs.com/hustskyking/p/how-regular-expressions-work.html' },
+        { name: '正则表达式入门', url: 'https://deerchao.net/tutorials/regex/regex.htm#mission' },
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
