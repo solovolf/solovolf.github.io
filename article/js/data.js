@@ -73,7 +73,8 @@ var articleList = {
         { name: "cmd markdown 在线编辑markdown", url: "https://www.zybuluo.com/cmd/" },
         { name: "图片服务器", url: "http://www.tietuku.com/" },
         { name: "gif格式转换 配合macqq截屏 简直神器  缺点就是较慢", url: "http://www.alltoall.net/mp4_gif/" },
-        { name: "图标工厂", url: "http://icon.wuruihong.com/" }
+        { name: "图标工厂", url: "http://icon.wuruihong.com/" },
+        { name: "web资源转换", url: "http://www.css-js.com/tools/base64.html" }
     ],
     collect: [
         { name: "前端资源教程  很全  前端很多资料可以在这里找", url: "https://cnodejs.org/topic/56ef3edd532839c33a99d00e" },
