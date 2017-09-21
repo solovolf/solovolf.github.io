@@ -35,6 +35,7 @@ var articleList = {
         { name: '正则不包含匹配', url: 'https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word/24743196#24743196' },
         { name: '正则表达式学习', url: 'http://www.cnblogs.com/hustskyking/p/how-regular-expressions-work.html' },
         { name: '正则表达式入门', url: 'https://deerchao.net/tutorials/regex/regex.htm#mission' },
+        { name: '千分位格式化算法性能', url: 'http://heeroluo.net/article/detail/115' },
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
@@ -64,6 +65,7 @@ var articleList = {
     tool: [
         { name: "puzzler-活动页静态页面生成器", url: "https://github.com/superRaytin/puzzler/releases" },
         { name: "搬瓦工搭建教程", url: "http://banwagong.cn/gonglue.html" },
+        { name: "搬瓦工", url: "https://bwh1.net/clientarea.php" },
         { name: "css 渐变 box-shadow 代码生成器", url: "http://www.cssmatic.com/" },
         { name: "css 渐变生成器 比上面一个流畅一点", url: "http://www.colorzilla.com/gradient-editor/" },
         { name: "css3 生成器", url: "http://www.cssreflex.com/css-generators/" },
