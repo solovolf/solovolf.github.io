@@ -103,6 +103,7 @@ var articleList = {
         { name: "rn SectionList使用", url: "http://blog.csdn.net/mengks1987/article/details/70236823" },
         { name: "koa 中文教程", url: "https://github.com/guo-yu/koa-guide" },
         { name: "koa xtemplate", url: "http://book.apebook.org/minghe/koa-action/xtemplate/use.html" },
+        { name: "git 教程", url: "http://www.imooc.com/article/20411" },
     ],
     deepLearning:[
         {name:"入门1",url:"https://zhuanlan.zhihu.com/p/27172826"},
