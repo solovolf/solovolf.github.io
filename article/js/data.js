@@ -104,6 +104,8 @@ var articleList = {
         { name: "koa 中文教程", url: "https://github.com/guo-yu/koa-guide" },
         { name: "koa xtemplate", url: "http://book.apebook.org/minghe/koa-action/xtemplate/use.html" },
         { name: "git 教程", url: "http://www.imooc.com/article/20411" },
+        { name: "linux部署node", url: "http://www.jianshu.com/p/7c2a81cd2c11" },
+        { name: "go语言学习", url: "https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md" },
     ],
     deepLearning:[
         {name:"入门1",url:"https://zhuanlan.zhihu.com/p/27172826"},
