@@ -35,6 +35,7 @@ var articleList = {
         { name: '正则不包含匹配', url: 'https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word/24743196#24743196' },
         { name: '正则表达式学习', url: 'http://www.cnblogs.com/hustskyking/p/how-regular-expressions-work.html' },
         { name: '正则表达式入门', url: 'https://deerchao.net/tutorials/regex/regex.htm#mission' },
+        { name: 'js正则基础', url: 'http://www.cnblogs.com/rubylouvre/archive/2010/03/09/1681222.html' },
         { name: '千分位格式化算法性能', url: 'http://heeroluo.net/article/detail/115' },
     ],
     javascript: [
