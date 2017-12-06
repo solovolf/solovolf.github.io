@@ -37,6 +37,7 @@ var articleList = {
         { name: '正则表达式入门', url: 'https://deerchao.net/tutorials/regex/regex.htm#mission' },
         { name: 'js正则基础', url: 'http://www.cnblogs.com/rubylouvre/archive/2010/03/09/1681222.html' },
         { name: '千分位格式化算法性能', url: 'http://heeroluo.net/article/detail/115' },
+        { name: 'sublime插件安装', url: 'http://blog.csdn.net/MR_LP/article/details/65634872' },
     ],
     javascript: [
         { name: '44个 Javascript 变态题解析 (上)', url: 'http://xiaoyu2er.github.io/2016/06/06/44-js-puzzles-part1/' },
