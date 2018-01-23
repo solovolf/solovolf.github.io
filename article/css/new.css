@@ -98,6 +98,7 @@ body {
     }
 
     .search-wrap input{
+        -webkit-appearance: none;  
         width: 100%;
         margin: 0;
         border: 1px solid #cccccc;
