@@ -56,7 +56,7 @@
             var type = eve.currentTarget.dataset.src
             var articleArr = articleList[type]
             for (var i = 0; i < articleArr.length; i++) {
-                contentHtml += '<a target="_blank" href="' + articleArr[i].url + '">' + articleArr[i].name + '</a>'
+                contentHtml += '<a target="_blank" href="' + articleArr[i].url + '">' + articleArr[i].name + '</a><br>'
             }
             contentEle.innerHTML = contentHtml
             hideCategoryWrap()
@@ -90,7 +90,7 @@
             var item=articleList[iterator]
             for (var i = 0; i < item.length; i++) {
                 if (item[i].name.indexOf(searchInput.value) > -1) {
-                    contentHtml += '<a target="_blank" href="' + item[i].url + '">' + item[i].name + '</a>'
+                    contentHtml += '<a target="_blank" href="' + item[i].url + '">' + item[i].name + '</a><br>'
                 }
             }
         }
